@@ -32,9 +32,12 @@ The classifier is trained with 60000 examples and then it is tested with 10000 e
 
 ## How to run
 
-In the root directory type:<br />
-	./download_datasets.sh<br />
-	make && bin/mnist_classifier<br />
+In the root directory:<br />
+```bash
+	./download_datasets.sh
+	make
+	bin/mnist_classifier
+```
 
 ## Possible Improvements
 
