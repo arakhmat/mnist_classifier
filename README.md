@@ -30,13 +30,21 @@ The input data is normalized. There is no momentum or weight decay.<br />
 
 The classifier is trained with 60000 examples and then it is tested with 10000 examples. With these hyperparameters, it achieves an accuracy of more than 94% depending on the initialization of the weights.<br /> 
 
-## How to run
+## Usage
 
-In the root directory:<br />
-```bash
-	./download_datasets.sh
-	make
-	bin/mnist_classifier
+To build :
+```sh
+make
+```
+
+To download the datasets:
+```sh
+./download_datasets.sh
+```
+
+To run:
+```sh
+bin/mnist_classifier
 ```
 
 ## Possible Improvements
