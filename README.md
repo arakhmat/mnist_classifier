@@ -24,7 +24,7 @@ Output layer:               10<br />
 Batch size:                 50<br />
 Number of epochs:           1<br />
 Learning rate:              0.5<br />
-Cost function:              Mean Squared Error<br />
+Cost function:              Cross-Entropy<br />
 
 The input data is normalized. There is no momentum or weight decay.<br />
 
@@ -53,4 +53,5 @@ bin/mnist_classifier
 - Add functions that would store and load the weights
 - Add momentum and weight decay
 - Flatten 2D and 3D arrays
+- Add more activation functions
 
