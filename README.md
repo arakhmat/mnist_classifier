@@ -1,4 +1,4 @@
-#mnist_classifier
+# mnist_classifier
 
 Convolutional neural network for digit recognition implemented in C++.
 
